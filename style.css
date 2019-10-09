@@ -1,5 +1,5 @@
 /*!
- * Guia do Instagram v1.0.9 (https://guiadoinstagram.midiaclub.app/)
+ * Guia do Instagram v1.1.0 (https://guiadoinstagram.midiaclub.app/)
  * Copyright 2019-2019 Equipe MIDIA CLUP APP
  * Copyright 2014-2019 PEQUI Soluções.
  */
@@ -263,6 +263,10 @@ h2 {
   font-weight: 400;
 }
 
+.block19 p:last-child {
+  margin-bottom: 2.5rem;
+}
+
 .block20 a {
   margin-top: 0;
 }
@@ -279,7 +283,7 @@ a:hover {
   z-index: 10;
   display: -webkit-box;
   position: relative;
-  top: 25px;
+  /* top: 25px; */
 }
 
 .sec13 {
@@ -393,6 +397,9 @@ a:hover {
   .block20 a {
     margin-left: -5px;
   }
+  .block19 p:last-child {
+    margin-bottom: 4.5rem;
+  }
   .block20 {
     margin-top: -11vh;
   }
@@ -419,6 +426,9 @@ a:hover {
   }
   .block5 h2 {
     font-weight: 600;
+  }
+  .block19 p:last-child {
+    margin-bottom: 3.5rem;
   }
   .block20 {
     margin-top: -9vh;
@@ -452,9 +462,9 @@ a:hover {
   .img6 {
     margin-top: 0;
   }
-  .img7 {
+  /* .img7 {
     top: 30px;
-  }
+  } */
   .sec3, .sec3 .col-md-12.col-xl-10.mx-auto,
   .container.sec9,
   .h2-plus,
@@ -473,6 +483,9 @@ a:hover {
   }
   .block5 {
     margin-top: 1rem;
+  }
+  .block19 p:last-child {
+    margin-bottom: -1.2rem;
   }
 }
 @media (max-width: 429.98px) {
@@ -496,6 +509,9 @@ a:hover {
   }
   .block5 {
     margin-top: 3rem;
+  }
+  .block19 p:last-child {
+    margin-bottom: 3rem;
   }
   .block20 {
     margin-top: -8vh;
@@ -931,6 +947,9 @@ a:hover {
   .block7 {
     margin-top: -10vh;
   }
+  .block19 p:last-child {
+    margin-bottom: 3rem;
+  }
   .img1 {
     margin-top: -2rem;
   }
@@ -949,6 +968,9 @@ a:hover {
 }
 
 @media (min-width: 1440px) {
+  .block19 p:last-child {
+    margin-bottom: 2.5rem;
+  }
   .block20 {
     margin-top: -6vh;
   }
